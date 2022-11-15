@@ -1,0 +1,439 @@
+/* Common Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* //Common Css End */
+
+/* Nav Section Css Start */
+nav {
+  background: #252e30;
+}
+nav .row {
+  align-items: center;
+}
+nav .logo {
+  width: 20%;
+}
+nav .menu {
+  width: 80%;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+nav ul li a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 29px 20px;
+  display: inline-block;
+  transition: 0.5s;
+}
+nav ul li:hover a {
+  color: #2ecc71;
+}
+/* //Nav Section Css End */
+/* Banner Section Css Start */
+#banner {
+  height: 1000px;
+  background: url(image/banner_bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#banner .row {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#banner .banner_content {
+  text-align: center;
+}
+#banner .banner_content h1 {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+#banner .banner_content a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  border: 2px solid #fff;
+  padding: 15px 34px;
+  display: inline-block;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+/* //Banner Section Css End */
+/* Feature Section Css Start */
+#feature {
+  padding: 90px 0;
+}
+#feature .feature_item {
+  /* width: calc(100% / 3); */
+  width: 33.33%;
+}
+#feature .feature_item h3 {
+  font-size: 30px;
+  color: #566366;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+#feature .feature_item p {
+  font-size: 18px;
+  color: #919191;
+  line-height: 30px;
+}
+/* About Section Css Start */
+#about { 
+  background: #f1f1f1;
+  position: relative;
+}
+#about:after {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  bottom: -20px;
+  left: 50%;
+}
+#about .about_img {
+  width: 30%;
+}
+#about .about_info {
+  width: 70%;
+  padding: 100px;
+}
+#about .about_info h2 {
+  font-size: 30px;
+  color: #566366;
+  text-transform: uppercase;
+}
+#about .about_item {
+  width: 50%;
+  padding-right: 50px;
+  padding-top: 55px;
+}
+#about .about_item_icon {
+  width: 70px;
+}
+#about .about_item_text {
+  width: calc(100% - 70px);
+}
+/* //About Section Css End */
+/* Skill Section Start */
+#skill{
+  padding: 100px;
+}
+#skill .content{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+#skill .left{
+  width: 50%;
+}
+#skill .left h3{
+  text-align: left;
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+color: #566366;
+}
+#skill .left p{
+  font-size: 18px;
+  color: #566366;
+  margin: 25px 0;
+  margin-bottom: 25px;
+  margin-bottom: 50px;
+}
+#skill .left a {
+  font-size: 18px;
+  color: #33cc66;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #33cc66;
+  padding: 19px 37px;
+}
+#skill .right{
+  width: 50%;
+  margin-left: 90px;
+}
+#skill .right h4 {
+  font-size: 22px;
+  color: #566366;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 39px;
+  margin-bottom: 19px;
+} 
+#skill .right .full {
+  width: 100%;
+  background: #f1f1f1;
+}
+#skill .right .photoshop{
+  width: 90%;
+  background: #2dcb71;
+  text-align: right;
+}
+#skill .right .illustrator{
+  width: 90%;
+  background: #2dcb71;
+  text-align: right;
+}
+#skill .right .html{
+  width: 90%;
+  background: #2dcb71;
+  text-align: right;
+}
+#skill .right .php{
+  width: 90%;
+  background: #2dcb71;
+  text-align: right;
+}
+/* //Skill Section End */
+
+/* Resume Section End */
+#resume{
+  background: #f2f2f1;
+} 
+#resume .container{
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+}
+.resume_info {
+  padding: 100px 100px;
+}
+.resume_info h3 {
+  font-weight: 700;
+  font-size: 30px;
+  padding: 25px;
+  color: #566366;
+  text-transform: uppercase;
+}
+.resume_info p {
+  color: #919191;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.resume_info a {
+  padding: 21px 24px;
+ 
+  color: #2ecc71;
+  border: solid #2ecc71;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+}
+/* //Resume Section End */
+/* Education Section Start */
+#education{
+  display: flex;
+  border-bottom: solid #f2f2f1;
+}
+.container_education{
+  display: flex;
+  padding-top: 98px;
+  padding-bottom: 24px;
+}
+.my_education{
+  width: 555px;
+}
+.container_education{
+  width: 1200px;
+  margin: auto;
+}
+.others_qualification{
+  padding-left: 30px;
+  width: 50%;
+  display: block;
+}
+.my_education h2 {
+  padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #566366;
+  text-transform: uppercase
+}
+.my_education p {
+  color: #919191;
+  font-size: 18px;
+  font-weight: 400;
+}
+.others_qualification {
+  padding-left: 30px;
+  width: 50%;
+  display: block;
+}
+.others_qualification h3 {
+  font-weight: 700;
+  text-size-adjust: 22px;
+  color: #566366;
+  text-transform: uppercase;
+}
+.others_qualification h6 {
+  margin: 18px 0;
+  color: #919191;
+  font-size: 18px;
+  font-weight: 400;
+}
+.fouryears {
+  background-color: #2ecc71;
+  width: 70px;
+  text-align: center;
+  color: white;
+  padding: 5px 8px;
+  margin: 18px 0;
+}
+.others_qualification p {
+  border-top: solid #f2f2f1;
+  border-top-width: medium;
+  padding-top: 29px;
+  padding-bottom: 74px;
+  border-width: 2px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #919191;
+}
+/* //Eucation Section End */
+
+/* Work Experience Section End */
+#workeperience{
+  margin-top: 90px;
+}
+.container_info .left {
+  width: 50%;
+} 
+.container_info .right {
+  width: 50%;
+} 
+.container_work {
+  width: 1200px;
+  margin: auto;
+}
+.container_info {
+  display: flex;
+ flex-wrap: wrap;
+ margin-left: 15px;
+}
+.container_info .left h3 {
+  font-size: 30px;
+ color: #566366;
+ font-weight: 700;
+ text-transform: uppercase;
+ padding-bottom: 50px;
+}
+.container_info .left  p {
+  font-size: 18px;
+  color: #566366;
+}
+.container_info .right h4 {
+ font-size: 22px;
+ color: #566366;
+ font-weight: 700;
+ text-transform: uppercase;
+ margin-top: 50px;
+ margin-bottom: 21px;
+}
+.container_info .right p {
+  font-size: 18px;
+  color: #566366;
+  margin-bottom: 21px;
+}
+.container_info .gpa {
+  background: #2dcb71;
+  color: #fff;
+  display: inline;
+  padding: 10px
+}
+
+/* //Work Experience Section End */
+/* work_box Section Start */
+#box_info{
+  color: #f1f1f1;
+}
+#box_info .box_contant {
+  text-align: center;
+  padding: 100px 260px;
+}
+#box_info .box_contant p {
+  font-size: 24px;
+  color: #566366;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#box_info .box_contant h4 {
+  font-size: 18px;
+  color: #566366;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 100px;
+
+}
+
+/* work_box Section End */
+/* Portfolio Section Css Start */
+#portfolio .portfolio_item {
+  width: calc(100% / 3);
+  padding: 20px;
+  position: relative;
+}
+#portfolio .portfolio_item img {
+  width: 100%;
+}
+#portfolio .portfolio_item .overlay {
+  position: absolute;
+  inset: 20px;
+  background-color: rgba(45, 203, 113, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+}
+#portfolio .portfolio_item:hover .overlay{
+   opacity: 1;
+   visibility: visible;
+}
+/* //Portfolio Section Css End */
+
+
+
+
+
+
+
+
